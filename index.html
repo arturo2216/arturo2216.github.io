@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arturo José Alfaro Morales — Desarrollador de Software</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;background:#f5f5f0;color:#2C2C2A;min-height:100vh;padding:2rem 1rem}
+.page{max-width:860px;margin:0 auto;background:#fff;padding:3rem 3.5rem;box-shadow:0 2px 20px rgba(0,0,0,0.08)}
+.header{border-left:4px solid #1D9E75;padding:0 0 0 1.5rem;margin-bottom:2.5rem}
+h1{font-family:'Space Mono',monospace;font-size:28px;font-weight:700;letter-spacing:-1px;margin-bottom:4px}
+.role{font-size:13px;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:#1D9E75;margin-bottom:14px}
+.contacts{display:flex;flex-wrap:wrap;gap:6px 20px}
+.contact{font-size:12.5px;color:#5F5E5A;display:flex;align-items:center;gap:5px}
+.layout{display:grid;grid-template-columns:1fr 220px;gap:0 2.5rem}
+.section{margin-bottom:2rem}
+.section-title{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#1D9E75;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.section-title::after{content:'';flex:1;height:1px;background:#e5e5e0}
+.profile{font-size:14px;line-height:1.75;color:#5F5E5A}
+.entry{margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid #f0f0ec}
+.entry:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.entry-title{font-weight:600;font-size:13.5px;margin-bottom:2px}
+.entry-sub{font-size:12px;color:#888780;margin-bottom:4px;font-style:italic}
+.entry-desc{font-size:13px;color:#5F5E5A;line-height:1.6}
+.badges{display:flex;flex-wrap:wrap;gap:6px}
+.badge{font-family:'Space Mono',monospace;font-size:10px;padding:3px 9px;border-radius:3px}
+.badge.tech{background:#E1F5EE;border:1px solid #5DCAA5;color:#0F6E56}
+.badge.soft{background:#F1EFE8;border:1px solid #B4B2A9;color:#5F5E5A}
+.bullet{display:flex;gap:8px;margin-bottom:10px;font-size:13px;line-height:1.6;color:#5F5E5A}
+.bullet::before{content:'▸';color:#1D9E75;flex-shrink:0;margin-top:2px}
+.highlight{background:#E1F5EE;border-left:3px solid #1D9E75;padding:8px 12px;border-radius:0 4px 4px 0;font-size:12.5px;color:#0F6E56;margin-top:8px}
+.lang-row{display:flex;justify-content:space-between;font-size:13px;color:#5F5E5A;margin-bottom:5px}
+.lang-level{color:#1D9E75;font-weight:600}
+.footer{border-top:1px solid #e5e5e0;padding-top:16px;margin-top:2rem;font-size:12px;color:#888780;font-style:italic}
+.github-link{display:inline-flex;align-items:center;gap:6px;font-family:'Space Mono',monospace;font-size:11px;padding:6px 12px;border:1px solid #1D9E75;border-radius:4px;color:#1D9E75;text-decoration:none;margin-top:6px}
+.github-link:hover{background:#E1F5EE}
+@media(max-width:600px){.layout{grid-template-columns:1fr}.page{padding:2rem 1.5rem}}
+@media print{body{background:white;padding:0}.page{box-shadow:none;padding:2rem}}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <h1>Arturo José Alfaro Morales</h1>
+    <p class="role">Análisis y Desarrollo de Software</p>
+    <div class="contacts">
+      <span class="contact">✉ arturojosealfaromorales@gmail.com</span>
+      <span class="contact">📱 3026015934</span>
+      <span class="contact">📍 Barranquilla, Colombia</span>
+      <span class="contact">🪪 CC 1044621477</span>
+    </div>
+  </div>
+
+  <div class="layout">
+    <div>
+      <div class="section">
+        <p class="section-title">Perfil</p>
+        <p class="profile">Aprendiz SENA en Análisis y Desarrollo de Software con conocimientos prácticos en Java, Python, HTML/CSS y APIs REST. Destaca por pensamiento analítico, rápida capacidad de aprendizaje y habilidades para el trabajo en equipo. Reconocido como mejor estudiante del trimestre en su grupo de formación.</p>
+      </div>
+
+      <div class="section">
+        <p class="section-title">Proyectos académicos</p>
+        <div class="entry">
+          <p class="entry-title">APIs REST — Proyecto backend</p>
+          <p class="entry-sub">Python · Supabase · DBeaver · SQL</p>
+          <p class="entry-desc">Creación de APIs REST con Python, gestión de base de datos en Supabase y administración con DBeaver. Aplicación de buenas prácticas en arquitectura backend.</p>
+        </div>
+        <div class="entry">
+          <p class="entry-title">Tienda Virtual — Proyecto en equipo</p>
+          <p class="entry-sub">HTML · CSS · JavaScript · SQL</p>
+          <p class="entry-desc">Desarrollo en equipo de tienda virtual con frontend funcional e integración de consultas SQL básicas en bases de datos relacionales.</p>
+        </div>
+        <a class="github-link" href="https://github.com/tuusuario" target="_blank">⚡ github.com/tuusuario — actualizar link</a>
+      </div>
+
+      <div class="section">
+        <p class="section-title">Logros</p>
+        <div class="bullet">Reconocido como el mejor estudiante del trimestre en su grupo de formación SENA, por desempeño académico y compromiso.</div>
+        <div class="bullet">Certificación en inglés B1+ por la Universidad del Atlántico, evaluado mediante prueba internacional tipo Benchmark (en dos ocasiones).</div>
+        <div class="highlight">⚡ Disponible para práctica empresarial · Aprendiz SENA activo</div>
+      </div>
+    </div>
+
+    <div>
+      <div class="section">
+        <p class="section-title">Estudios</p>
+        <div class="entry">
+          <p class="entry-title" style="font-size:13px">Análisis y Desarrollo de Software</p>
+          <p class="entry-sub">SENA TIC · En formación</p>
+        </div>
+        <div class="entry">
+          <p class="entry-title" style="font-size:13px">Inglés B1+ Certificado</p>
+          <p class="entry-sub">Universidad del Atlántico</p>
+        </div>
+        <div class="entry">
+          <p class="entry-title" style="font-size:13px">Bachiller</p>
+          <p class="entry-sub">I.E.D. de las Nieves · 2023</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="section-title">Tecnologías</p>
+        <div class="badges">
+          <span class="badge tech">Python</span>
+          <span class="badge tech">Java</span>
+          <span class="badge tech">HTML/CSS</span>
+          <span class="badge tech">JavaScript</span>
+          <span class="badge tech">REST API</span>
+          <span class="badge tech">SQL</span>
+          <span class="badge tech">Supabase</span>
+          <span class="badge tech">DBeaver</span>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="section-title">Habilidades</p>
+        <div class="badges">
+          <span class="badge soft">Trabajo en equipo</span>
+          <span class="badge soft">Comunicación asertiva</span>
+          <span class="badge soft">Aprendizaje rápido</span>
+          <span class="badge soft">Adaptabilidad</span>
+          <span class="badge soft">Responsabilidad</span>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="section-title">Idiomas</p>
+        <div class="lang-row"><span>Español</span><span class="lang-level">Nativo</span></div>
+        <div class="lang-row"><span>Inglés</span><span class="lang-level">B1+</span></div>
+      </div>
+    </div>
+  </div>
+
+  <p class="footer">Referencias disponibles a solicitud.</p>
+</div>
+</body>
+</html>
